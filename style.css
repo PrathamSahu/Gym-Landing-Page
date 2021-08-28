@@ -21,7 +21,7 @@ body {
 }
 
 .navbar li a:hover {
-  color: rgba(255, 1, 1, 0.59);
+  color: rgba(255, 1, 1, 0.60);
   position: relative;
   top: 4px;
   left: 4px;
