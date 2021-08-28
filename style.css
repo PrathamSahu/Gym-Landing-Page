@@ -1,0 +1,124 @@
+:root {
+  background-color: rgb(43, 37, 37);
+}
+
+body {
+  background: url("Background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.navbar li a {
+  list-style: none;
+  color: rgba(219, 178, 66, 0.808);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  padding: 0px 0px;
+  margin: 0px 20px;
+}
+
+.navbar li a:hover {
+  color: rgba(255, 1, 1, 0.59);
+  position: relative;
+  top: 4px;
+  left: 4px;
+  box-shadow: 10px red;
+}
+
+.navbar {
+  display: flex;
+  margin: 0px 2px;
+}
+
+.navbar li {
+  margin-top: 12px;
+}
+
+.btn {
+  font-family: "Baloo Bhai", cursive;
+  margin: 10px 10px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 4px 14px;
+  border: 2px solid rgb(184, 88, 88);
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(5, 4, 4);
+  box-shadow: 1px 1px 10px #f1f1ed;
+}
+
+.container {
+  border: 2px solid rgb(7, 7, 7);
+  margin: 10% auto;
+  padding: 20px;
+  width: 30%;
+  border-radius: 28px;
+  background-color: rgba(134, 109, 109, 0.5);
+}
+
+.form-group input {
+  font-family: "Baloo Bhai", cursive;
+  text-align: center;
+  display: block;
+  width: 300px;
+  height: 30px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+textarea {
+  font-family: "Baloo Bhai", cursive;
+  border: 2px solid black;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: 80px;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgba(235, 92, 92, 0.795);
+  width: 100%;
+}
+
+.call {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(224, 33, 33);
+  width: 20%;
+  margin-left: 40%;
+}
+
+.container button {
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+}
+
+.contact {
+  background-color: rgba(100, 79, 69, 0.295);
+  text-align: center;
+  height: 350px;
+  padding: 20px 20px;
+  margin-top: 150px;
+}
+
+h4 {
+  padding-right: 300px;
+  font-family: "Baloo Bhai", cursive;
+}
+
+.area {
+  padding-right: 250px;
+}
